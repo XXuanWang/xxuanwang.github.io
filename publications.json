@@ -1,0 +1,182 @@
+[
+  {
+    "id": "emergent-backdoors",
+    "year": "2026",
+    "title": "Emergent Backdoors in Agentic Recursive Training",
+    "authors": "<strong>Xuan Wang</strong>, Yu-liang Lu, Kejiang Ye, Cheng-zhong Xu, Xitong Gao",
+    "summary": "A study of how trigger-conditional feedback biases amplify through agentic recursive training, producing emergent backdoors. The full curriculum–execution loop reaches 97.62% attack success at comparable clean accuracy, exceeding matched SFT and RLHF baselines.",
+    "venue": "EMNLP 2026 · Main Conference",
+    "links": "",
+    "published": "2026-08-21",
+    "modified": "2026-09-30",
+    "abstract": "Agentic recursive training systems increasingly reuse model-generated tasks, proxy feedback, and selected trajectories to refine policies over multiple rounds. This creates feedback loops in which small conditional biases can accumulate across training and alter later selection and updates. We study whether trigger-conditional proxy-feedback biases can produce emergent backdoors in a controlled recursive training loop. A Curriculum Agent proposes tasks, an Executor Agent generates rollouts, and environment feedback is selectively biased on rare markers, affecting reward, selection, and curriculum updates. Under matched biased supervision, Reward Hacking + SFT and Reward Hacking + RLHF reach 31.27% and 53.85% ASR, while the full loop reaches 97.62% at comparable clean accuracy. The effect persists across Qwen3-4B, LLaMA-3-8B, BLIP-2-OPT-2.7B, and Qwen2.5-14B, transfers to GSM8K, BBH, and HotpotQA, extends to a tool-augmented setting, and is only partially reduced by post-hoc defenses. These results suggest that feedback and curriculum mechanisms in agentic recursive training should be audited for long-horizon bias amplification.",
+    "keywords": [
+      "Agentic recursive training",
+      "Emergent backdoors",
+      "Feedback bias",
+      "Reward hacking",
+      "Curriculum learning"
+    ],
+    "license": "CC BY 4.0",
+    "source": "User-supplied accepted submission record; public paper URL pending."
+  },
+  {
+    "id": "concept-score-relearning",
+    "year": "2026",
+    "title": "<a href=\"https://arxiv.org/abs/2609.33445\" target=\"_blank\" rel=\"noopener noreferrer\">Concept Score Relearning: A Unified Cross-Architecture Attack on Concept Erasure</a>",
+    "authors": "Hong Xi Tae, Jiaming Zhang, Wenwen He, <strong>Xuan Wang</strong>, Wei Yang Bryan Lim",
+    "summary": "Concept Score Relearning reactivates erased concepts across U-Net-based Stable Diffusion and Transformer-based FLUX through a shared parameter-level objective, without an external target-concept image dataset.",
+    "venue": "arXiv",
+    "links": "<a href=\"https://arxiv.org/abs/2609.33445\" target=\"_blank\" rel=\"noopener noreferrer\">Paper</a><a href=\"https://arxiv.org/pdf/2609.33445\" target=\"_blank\" rel=\"noopener noreferrer\">PDF</a>",
+    "published": "2026-09-27",
+    "image": {
+      "src": "assets/papers/concept-score-relearning.png",
+      "alt": "Concept Score Relearning framework using self-generated anchors and cross-architecture relearning",
+      "caption": "CSR framework · Figure 2",
+      "source": "https://arxiv.org/html/2609.33445v1/",
+      "kind": "original"
+    }
+  },
+  {
+    "id": "experience-activation",
+    "year": "2026",
+    "title": "<a href=\"https://arxiv.org/abs/2609.33304\" target=\"_blank\" rel=\"noopener noreferrer\">Relevance Does Not Imply Applicability: Experience Activation for Personal GUI Agents</a>",
+    "authors": "Fuyao Zhang, <strong>Xuan Wang</strong>, Zherui Li, Jiaming Zhang, Longtao Huang, Wei Yang Bryan Lim",
+    "summary": "ExpActivator is a training-free framework that activates historical experience only when it applies to the current screen or scenario, improving personalized GUI execution and proactive intent prediction.",
+    "venue": "arXiv",
+    "links": "<a href=\"https://arxiv.org/abs/2609.33304\" target=\"_blank\" rel=\"noopener noreferrer\">Paper</a><a href=\"https://arxiv.org/pdf/2609.33304\" target=\"_blank\" rel=\"noopener noreferrer\">PDF</a>",
+    "published": "2026-09-27",
+    "image": {
+      "src": "assets/papers/experience-activation.png",
+      "alt": "ExpActivator framework showing step-level and task-level experience activation",
+      "caption": "ExpActivator framework · Figure 2",
+      "source": "https://arxiv.org/html/2609.33304v1/",
+      "kind": "original"
+    }
+  },
+  {
+    "id": "attacks-for-good",
+    "year": "2026",
+    "title": "<a href=\"https://arxiv.org/abs/2608.04314\" target=\"_blank\" rel=\"noopener noreferrer\">Adversarial Attacks for Good: A Survey of Proactive Protection across the Visual Content Lifecycle</a>",
+    "authors": "Jiaming Zhang, Boyang Chen, Zherui Li, Fuyao Zhang, Xinyu Yan, Hong Xi Tae, Wenwen He, <strong>Xuan Wang</strong>, Siqi Guo, Junhao Dong, Kun Wang, Hanxun Huang, Yige Li, Xingjun Ma, Yang Cao, Lingjuan Lyu, Wei Yang Bryan Lim",
+    "summary": "A survey of owner-side protections spanning visual privacy, unauthorized training, generative misuse, access control, and provenance.",
+    "venue": "arXiv",
+    "links": "<a href=\"https://arxiv.org/abs/2608.04314\" target=\"_blank\" rel=\"noopener noreferrer\">Paper</a><a href=\"https://arxiv.org/pdf/2608.04314\" target=\"_blank\" rel=\"noopener noreferrer\">PDF</a>",
+    "image": {
+      "src": "assets/survey-overview.png",
+      "alt": "Protective mechanisms across the visual content lifecycle",
+      "caption": "Visual content lifecycle · Figure 1",
+      "source": "https://arxiv.org/html/2608.04314v1/",
+      "kind": "original"
+    }
+  },
+  {
+    "id": "lie-detector",
+    "year": "2025",
+    "title": "<a href=\"https://proceedings.neurips.cc/paper_files/paper/2025/hash/dce7d0eb0233aea3df9b19f71f3a69fb-Abstract-Conference.html\" target=\"_blank\" rel=\"noopener noreferrer\">Lie Detector: Unified Backdoor Detection via Cross-Examination Framework</a>",
+    "authors": "<strong>Xuan Wang</strong>, Siyuan Liang, Dongping Liao, Han Fang, Aishan Liu, Xiaochun Cao, Yu-liang Lu, Ee-Chien Chang, Xitong Gao",
+    "summary": "A unified framework that detects backdoors by cross-examining inconsistencies between independently trained models.",
+    "venue": "NeurIPS 2025",
+    "links": "<a href=\"https://proceedings.neurips.cc/paper_files/paper/2025/hash/dce7d0eb0233aea3df9b19f71f3a69fb-Abstract-Conference.html\" target=\"_blank\" rel=\"noopener noreferrer\">Paper</a><a href=\"https://proceedings.neurips.cc/paper_files/paper/2025/file/dce7d0eb0233aea3df9b19f71f3a69fb-Paper-Conference.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">PDF</a><a href=\"https://arxiv.org/abs/2503.16872\" target=\"_blank\" rel=\"noopener noreferrer\">arXiv</a>",
+    "image": {
+      "src": "assets/papers/lie-detector.png",
+      "alt": "Lie Detector cross-examination framework with trigger reverse engineering and fine-tuning sensitivity analysis",
+      "caption": "Cross-examination framework · Figure 2",
+      "source": "https://proceedings.neurips.cc/paper_files/paper/2025/file/dce7d0eb0233aea3df9b19f71f3a69fb-Paper-Conference.pdf#page=4",
+      "kind": "original"
+    }
+  },
+  {
+    "id": "a3",
+    "year": "2025",
+    "title": "<a href=\"https://openaccess.thecvf.com/content/CVPR2025/html/Wang_A3_Few-shot_Prompt_Learning_of_Unlearnable_Examples_with_Cross-Modal_Adversarial_CVPR_2025_paper.html\" target=\"_blank\" rel=\"noopener noreferrer\">A3: Few-shot Prompt Learning of Unlearnable Examples with Cross-Modal Adversarial Feature Alignment</a>",
+    "authors": "<strong>Xuan Wang</strong>, Xitong Gao, Dongping Liao, Tianrui Qin, Yu-liang Lu, Cheng-zhong Xu",
+    "summary": "Cross-modal adversarial feature alignment enables few-shot prompt learning from unlearnable examples using pretrained vision-language models.",
+    "venue": "CVPR 2025",
+    "links": "<a href=\"https://openaccess.thecvf.com/content/CVPR2025/html/Wang_A3_Few-shot_Prompt_Learning_of_Unlearnable_Examples_with_Cross-Modal_Adversarial_CVPR_2025_paper.html\" target=\"_blank\" rel=\"noopener noreferrer\">Paper</a><a href=\"https://openaccess.thecvf.com/content/CVPR2025/papers/Wang_A3_Few-shot_Prompt_Learning_of_Unlearnable_Examples_with_Cross-Modal_Adversarial_CVPR_2025_paper.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">PDF</a>",
+    "image": {
+      "src": "assets/papers/a3.png",
+      "alt": "A3 framework combining image and text augmentations with adversarial feature alignment",
+      "caption": "A³ method overview · Figure 1",
+      "source": "https://openaccess.thecvf.com/content/CVPR2025/papers/Wang_A3_Few-shot_Prompt_Learning_of_Unlearnable_Examples_with_Cross-Modal_Adversarial_CVPR_2025_paper.pdf#page=5",
+      "kind": "original"
+    }
+  },
+  {
+    "id": "poison-once",
+    "year": "2025",
+    "title": "<a href=\"https://arxiv.org/abs/2506.13205\" target=\"_blank\" rel=\"noopener noreferrer\">Poison Once, Control Anywhere: Clean-Text Visual Backdoors in VLM-based Mobile Agents</a>",
+    "authors": "<strong>Xuan Wang</strong>, Siyuan Liang, Zhe Liu, Yi Yu, Aishan Liu, Yuliang Lu, Xitong Gao, Ee-Chien Chang",
+    "summary": "An investigation of visual backdoor vulnerabilities in VLM-based mobile agents, with textual instructions kept unchanged.",
+    "venue": "arXiv 2025",
+    "links": "<a href=\"https://arxiv.org/abs/2506.13205\" target=\"_blank\" rel=\"noopener noreferrer\">Paper</a><a href=\"https://arxiv.org/pdf/2506.13205\" target=\"_blank\" rel=\"noopener noreferrer\">PDF</a>",
+    "image": {
+      "src": "assets/papers/poison-once.png",
+      "alt": "VIBMA framework with visual backdoor training and mobile agent evaluation",
+      "caption": "VIBMA overview · Figure 1",
+      "source": "https://arxiv.org/html/2506.13205v6/",
+      "kind": "original"
+    }
+  },
+  {
+    "id": "vlm-robustness",
+    "year": "2025",
+    "title": "<a href=\"https://doi.org/10.1145/3731715.3733407\" target=\"_blank\" rel=\"noopener noreferrer\">On the Adversarial Robustness of Visual-Language Chat Models</a>",
+    "authors": "Tianrui Qin, <strong>Xuan Wang</strong>, Juanjuan Zhao, Kejiang Ye, Cheng-zhong Xu, Xitong Gao",
+    "summary": "A study of visual adversarial inputs and their effects on image descriptions, model safety, and information hiding in VLMs.",
+    "venue": "ICMR 2025",
+    "links": "<a href=\"https://doi.org/10.1145/3731715.3733407\" target=\"_blank\" rel=\"noopener noreferrer\">Paper</a><a href=\"https://dl.acm.org/doi/pdf/10.1145/3731715.3733407\" target=\"_blank\" rel=\"noopener noreferrer\">PDF</a>"
+  },
+  {
+    "id": "flareon",
+    "year": "2025",
+    "title": "<a href=\"https://doi.org/10.1145/3774648\" target=\"_blank\" rel=\"noopener noreferrer\">Flareon: Stealthy All2all Backdoor Injection via Poisoned Augmentation</a>",
+    "authors": "Tianrui Qin, <strong>Xuan Wang</strong>, Xianghuan He, Yiren Zhao, Kejiang Ye, Cheng-Zhong Xu, Xitong Gao",
+    "summary": "A study of supply-chain vulnerabilities through poisoned data augmentation that embeds target-conditioned backdoors.",
+    "venue": "ACM TKDD",
+    "links": "<a href=\"https://doi.org/10.1145/3774648\" target=\"_blank\" rel=\"noopener noreferrer\">Paper</a><a href=\"https://dl.acm.org/doi/pdf/10.1145/3774648\" target=\"_blank\" rel=\"noopener noreferrer\">PDF</a>",
+    "image": {
+      "src": "assets/papers/flareon.png",
+      "alt": "Flareon poisoned augmentation method illustration from coauthor Yiren Zhao’s publication page",
+      "caption": "Flareon overview · Coauthor’s paper illustration",
+      "source": "https://aaron-zhao123.github.io/publications/",
+      "kind": "original"
+    }
+  },
+  {
+    "id": "streamguard",
+    "year": "2025",
+    "title": "<a href=\"https://doi.org/10.1007/978-981-95-4109-6_21\" target=\"_blank\" rel=\"noopener noreferrer\">StreamGuard: A Streaming-Based Defense Against Jailbreaking Attacks in Large Language Models</a>",
+    "authors": "Laizhen Li, Xitong Gao, <strong>Xuan Wang</strong>, Juanjuan Zhao, Kejiang Ye",
+    "summary": "A decoding-stage defense that reviews intermediate outputs and inserts prompts to steer generation toward safe responses.",
+    "venue": "ICONIP 2025",
+    "links": "<a href=\"https://doi.org/10.1007/978-981-95-4109-6_21\" target=\"_blank\" rel=\"noopener noreferrer\">Paper</a>"
+  },
+  {
+    "id": "invisible-backdoor",
+    "year": "2024",
+    "title": "<a href=\"https://doi.org/10.1007/s00521-024-09506-3\" target=\"_blank\" rel=\"noopener noreferrer\">Invisible Backdoor Learning in Regional Transform Domain</a>",
+    "authors": "Yuyuan Sun, Yuliang Lu, Xuehu Yan, <strong>Xuan Wang</strong>",
+    "summary": "Regional transform-domain triggers explore the balance between backdoor effectiveness, stability, and visual concealment.",
+    "venue": "Neural Computing and Applications",
+    "links": "<a href=\"https://doi.org/10.1007/s00521-024-09506-3\" target=\"_blank\" rel=\"noopener noreferrer\">Paper</a>"
+  },
+  {
+    "id": "watermarking",
+    "year": "2022",
+    "title": "<a href=\"https://www.mdpi.com/1424-8220/22/9/3489\" target=\"_blank\" rel=\"noopener noreferrer\">Wet Paper Coding-Based Deep Neural Network Watermarking</a>",
+    "authors": "<strong>Xuan Wang</strong>, Yuliang Lu, Xuehu Yan, Long Yu",
+    "summary": "Wet paper coding embeds tamper-resistant model watermarks while protecting parameters important to the original task.",
+    "venue": "Sensors",
+    "links": "<a href=\"https://www.mdpi.com/1424-8220/22/9/3489\" target=\"_blank\" rel=\"noopener noreferrer\">Paper</a>"
+  },
+  {
+    "id": "sar-recognition",
+    "year": "2022",
+    "title": "<a href=\"https://doi.org/10.1155/2022/8465543\" target=\"_blank\" rel=\"noopener noreferrer\">Synthetic Aperture Radar Target Recognition Based on Multimodule Image Enhancement Network</a>",
+    "authors": "<strong>Xuan Wang</strong>, Yuliang Lu, Xuehu Yan, Da Li, Chunqian He",
+    "summary": "A lightweight recognition pipeline combines target extraction, image enhancement, and convolutional networks for SAR images.",
+    "venue": "Security and Communication Networks",
+    "links": "<a href=\"https://doi.org/10.1155/2022/8465543\" target=\"_blank\" rel=\"noopener noreferrer\">Paper</a><a href=\"https://onlinelibrary.wiley.com/doi/pdf/10.1155/2022/8465543\" target=\"_blank\" rel=\"noopener noreferrer\">PDF</a>"
+  }
+]
