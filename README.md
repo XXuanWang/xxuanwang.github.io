@@ -14,7 +14,7 @@ visitor tracking, or contact information are copied.
 - `index.html`: profile, biography, 10 research publications from 2025–2026, news, experience.
 - `publications.html`: 10 displayed publications grouped by conference/publication year.
 - `styles.css`, `main.js`: template styling and accessible navigation behavior.
-- `assets/`: locally served fonts, icons, GitHub avatar, and original illustrations for seven papers.
+- `assets/`: locally served fonts, icons, profile photo, and original illustrations for seven papers.
 - `robots.txt`, `sitemap.xml`: indexing metadata for the intended GitHub Pages URL.
 - `.github/workflows/pages.yml`: a prepared GitHub Pages deployment workflow.
 
@@ -49,8 +49,7 @@ and timing. See https://developers.google.com/search/docs/crawling-indexing/ask-
   URL and volume 38. Scholar lists the proceedings publication date in 2026;
   the two dates should not be mistaken for two different papers.
 - News records use documented release/publication dates, not inferred acceptance dates.
-- `assets/profile.png` is the public GitHub avatar from account `XXuanWang`.
-  It is a provisional profile image, not a verified professional portrait.
+- `assets/profile.jpg` is the profile photo supplied by the user on 6 October 2026.
 - The research overview image is Figure 1 of arXiv:2608.04314v1, credited below
   the image. It is used in context with its associated paper.
 - No email, doctoral year, academic services, or recruitment announcements have
