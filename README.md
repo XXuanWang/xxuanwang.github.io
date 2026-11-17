@@ -2,13 +2,6 @@
 
 A static English academic homepage for Xuan Wang, Research Fellow at NTU.
 
-The design follows the user-requested reference at https://chenyangsi.top/:
-the same template typography, navigation, section spacing, circular profile image,
-featured research card, two-column research grid, and footer treatment. The palette
-has been adapted to the requested fresh green theme. All professional text is
-Xuan Wang's own information; no PRLab members, affiliations, recruitment claims,
-visitor tracking, or contact information are copied.
-
 ## Contents
 
 - `index.html`: profile, biography, 10 research publications from 2025–2026, news, experience.
